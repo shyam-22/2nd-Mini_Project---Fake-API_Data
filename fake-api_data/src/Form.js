@@ -22,7 +22,7 @@ const Form = (props) => {
         let copyData = {...data}
         copyData[e.target.name]={}
         e.target.value.forEach((item) => {
-            copyData[e.target.name][item] = "xyx";
+            copyData[e.target.name][item] = "";
         })
         setData(copyData)
     };
