@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import "./Style Folder/App.scss"
+import {Container} from "@material-ui/core"
+import Form from "./Form"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Container>
+                <Form/>
+      </Container>
+  
   );
 }
 
 export default App;
+
+//packages install
+//npm install @material-ui/core
+
+
+//title
+//<h1>Fake API Generate--->We can Generate large Amount Of data</h1>
+
